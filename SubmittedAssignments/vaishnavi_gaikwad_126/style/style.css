@@ -1,0 +1,404 @@
+
+
+
+@font-face { 
+    font-family: "barlow";
+    src: url("../fonts/Barlow/Barlow-Regular.ttf");
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Barlow;
+    background-color:rgb(210, 210, 210);
+}
+/* card-wrapper */
+
+.card-wrapper{
+
+    height: 250mm;
+    width: 400mm;
+    background-color: white;
+    position: relative;
+    
+}
+
+/* .topbox1 */
+
+
+.topbox1{
+    height: 100mm;
+    width: 200mm;
+    /* background-color: pink; */
+    /* border: 0.5px solid gray; */
+    position: relative;
+    left: 100mm;
+    top: 20mm;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow:  0 23px 59px  rgba(106, 106, 109, 0.5);
+
+}
+
+/* .topbox2 */
+
+.topbox2{
+    height: 100mm;
+    width: 200mm;
+    /* background-color: green; */
+    /* border: 0.5px solid black; */
+    position: relative;
+    left: 100mm;
+    top: 30mm;
+    border-radius: 5%;
+    overflow: hidden;
+    box-shadow:  0 23px 59px  rgba(106, 106, 109, 0.5);
+
+
+}
+
+/* triangle1 */
+
+.right1{
+    height: 71mm;
+    width: 77mm;
+    background-color:rgb(236, 174, 0);
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 147mm;
+    top: 45mm;
+    transform: skewx(124deg);
+    bottom: 3mm;
+    z-index: 5;
+    /* overflow: hidden; */
+
+}
+
+/* right2 */
+.right2{
+    height: 101mm;
+    width: 117mm;
+    background-color:rgb(47, 53, 67);
+    position: absolute;
+    left: 95mm;
+    top: -31mm;
+    /* transform: skewX(30deg); */
+    z-index: 5;
+    rotate: 58deg;
+    /* overflow: hidden; */
+
+
+}
+
+/* right3 */
+
+.right3{
+    height: 37mm;
+    width: 50mm;
+    background-color: rgb(236, 174, 0);
+    position: absolute;
+    top: -16mm;
+    left: 171mm;
+    /* transform: skewX(30deg); */
+    z-index: 10;
+    rotate: 62deg;
+}
+
+
+
+
+/* right4 */
+
+/* .right4{ */
+    /* height: 10mm;
+    width: 8mm;
+    background-color:rgb(47, 53, 67);
+    position: absolute;
+    top: 48mm;
+    left: 197mm;
+    z-index: 5;
+    transform: skewX(-151deg);
+    background-color: pink;
+} */
+
+
+/* right5 */
+
+
+.right5{
+    height: 94mm;
+    width: 61mm;
+    /* background-color: pink; */
+    /* border: 1px solid black; */
+    position: absolute;
+    top: -1mm;
+    left: 105mm;
+    transform: skewX(26deg);
+    background-color: rgb(210, 210, 210);
+    /* z-index: 4; */
+    /* background-color:rgb(221, 220, 225); */
+
+}
+
+
+
+
+
+
+/* .topbox2 */
+
+
+.btri1{
+    height: 113mm;
+    width: 200mm;
+    left: 74mm;
+    background-color: rgb(236, 174, 0);
+    transform: skewx(119deg);
+    position: absolute;
+    top: 0mm;
+    z-index: 5;
+
+
+}
+
+
+
+.btri2{
+    height: 117mm;
+    width: 239mm;
+    background-color:rgb(47, 53, 67);
+    position: absolute;
+    top: -43mm;
+    left: 1mm;
+    /* transform: skewX(-147deg); */
+    rotate: 168deg;
+    z-index: 5;
+}
+
+
+/* .btri3{
+    height: 20mm;
+    width: 20mm;
+    background-color: pink;
+    position: absolute;
+    top: 30mm;
+    /* transform: skewX(20deg); */
+/* } */ */
+
+.btri3{
+width: 0;
+height: 0;
+border-top: 25px solid transparent;
+border-left: 50px solid #801111;
+border-bottom: 25px solid transparent;
+background-color: pink;
+position: absolute;
+top: 10mm;
+
+
+}
+
+.yourname{
+    color: black;
+    font-size: 32pt;
+    position: absolute;
+    left: 13mm;
+    top: 7mm;
+    font-family: barlow;
+}
+
+.ceo{
+    position: absolute;
+    top: 20mm;
+    font-size: 15pt;
+    left: 14mm;
+    height: 11mm;
+    border-bottom:4px solid rgb(245, 218, 140) ;
+}
+
+
+
+
+/* number */
+
+
+.number{
+    position: absolute;
+    height: 11mm;
+    width: 50mm;
+    border: 1px soild gray;
+    text-align: center;
+    /* background-color: pink; */
+    top: 41mm;
+    left: 19mm;
+
+    border-left:2px solid rgb(245, 218, 140) ;
+    /* color:rgb(230, 230, 230); */
+}
+
+.number .p1{
+    position: absolute;
+    left: 6mm;
+    top: 5mm;
+}
+.number .p2{
+    position: absolute;
+    left: 6mm;
+}
+
+
+.email{
+    height: 10mm;
+    width: 50mm;
+    position: absolute;
+    top: 58mm;
+    left: 19mm;
+    text-align: center;
+    /* background-color: greenyellow; */
+    border-left:2px solid rgb(245, 218, 140) ;
+}
+
+.location{
+    height: 10mm;
+    width: 50mm;
+    top: 80mm;
+    left: 19mm;
+    /* background-color: red; */
+    position: absolute;
+    text-align: center;
+    border-left:2px solid rgb(245, 218, 140) ;
+}
+
+
+
+.phone-icon{
+    top: 2mm;
+    left: 25mm;
+    position: absolute;
+}
+
+.email-icon{
+    top: 2mm;
+    left: 25mm;
+    position: absolute;
+}
+
+.location-icon{
+    top: 2mm;
+    left: 25mm;
+    position: absolute;
+}
+.btri4{
+     height: 75mm;
+    width: 52mm;
+     background-color: rgb(210, 210, 210); 
+     /* border: 2px soild black;  */
+     /* border: 1px solid black;  */
+    position: absolute;
+    top: 23mm;
+    left: 5mm;
+    transform: skewx(-170deg); 
+}
+
+.btri5{
+    height: 37mm;
+    width: 50mm;
+    background-color: rgb(236, 174, 0);
+    position: absolute;
+    top: -29mm;
+    left: 168mm;
+    /* transform: skewX(30deg); */
+    z-index: 10;
+    rotate: 62deg;
+}
+
+
+/* .colombo-logo img{
+    height: 26mm;
+    left: 137mm;
+    width: 30mm;
+    position: absolute;
+    top: 25mm;
+    background-color: rgb(236, 174, 0);
+    border-radius: 63%; */
+/* color: black; */
+
+.colombo-logo img{
+
+height: 20mm;
+width: 20mm;
+position: absolute;
+left: 148mm;
+top: 28mm;
+z-index: 5;
+}
+
+.colombo-name{
+    /* height: 20mm;
+
+    width: 20mm;*/
+    position: absolute; 
+    top: 50mm;
+    left: 138mm;
+    z-index: 5;
+    color: white;
+    font-size: 20pt;
+}
+
+
+.your-tagline{
+    position: absolute;
+    top: 59mm;
+    left: 144mm;
+    z-index: 5;
+    color:rgb(230, 230, 230);
+
+}
+
+
+.second-img img{
+
+    height: 31mm;
+    width: 35mm;
+    position: absolute;
+    top: 21mm;
+    left: 92mm;
+    z-index: 5;
+
+}
+
+.second-colomo-pro{
+/* 
+    height: 20mm;
+    width: 20mm; */
+    position: absolute;
+    top: 51mm;
+    left: 79mm;
+    font-size: 29pt;
+    color: white;
+    z-index: 5;
+}
+
+
+.second-tagline{
+    position: absolute;
+    top: 63mm;
+    left: 94mm;
+    /* color: white; */
+    color:rgb(230, 230, 230);
+
+    z-index: 5;
+
+
+}
+
+.website{
+    position: absolute;
+    top: 88mm;
+    left: 85mm;
+    z-index: 5;
+    color:black;
+
+}
